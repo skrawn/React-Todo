@@ -12,7 +12,7 @@ class App extends React.Component {
     this.state = {
       items: [
         {
-          task: '',
+          task: 'asdag',
           id: 0,
           complete: false
         }
@@ -30,7 +30,7 @@ class App extends React.Component {
       complete: false
     };
     items.push(newItem);
-    this.setState(
+    this.setState({items: items});
   }
 
   render() {
