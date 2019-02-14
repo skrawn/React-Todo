@@ -30,6 +30,7 @@ class App extends React.Component {
       complete: false
     };
     items.push(newItem);
+    this.setState(
   }
 
   render() {
